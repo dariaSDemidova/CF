@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/wheel.css">
+  <link rel="stylesheet" href="css/form.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/setCursorPosition.js" defer></script>
+  <script src="js/form.min.js" defer></script>
+</head>
+
+<body>
+  <div class="wheel" id="form">
+    <div class="wheel__wrapper">
+      <h2 class="wheel__title">Tentez votre chance !</h2>
+      <p class="wheel__title">
+        Notre portail offre une remise supplémentaire sur Slim Tea Pro.
+        Tentez votre chance et appuyez sur le bouton SPIN. Si vous
+        avez de la chance, vous pouvez recevez le Slim Tea Pro avec une
+        réduction de 50% !
+      </p>
+      <div class="wheel__pic">
+        <img class="prize-wheel" src="images/prizewheel.png">
+        <div class="wheel__cursor" data-link="https://pillsenmag.com/click.php?lp=1&amp;place=wheel">
+          <img src="images/wheel-cursor.png">
+          <span class="wheel__cursor-text">spin</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="overlay overlay-prize">
+    <div class="popup">
+      <div class="popup__body">
+        <div class="popup__title shown">Félicitations !</div>
+        <p class="popup__text shown">
+          Vous avez gagné notre premier prix - "Slim Tea Pro" avec la réduction de
+          50% !
+        </p>
+        <div class="btn btn--submit btn--submit1 btn-popup eventClick"
+          data-link="https://pillsenmag.com/click.php?lp=1&amp;place=popup">
+          Ok
+        </div>
+        <div class="popup__icon prize">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+  <div class="order">
+    <div class="main-gkk">
+      <div class="wrap-form-gkk">
+        <div class="form-gkk">
+          <div class="header-gkk">
+            <div class="logo-gkk">
+              <img src="images/logo-pilsen.svg" alt="">
+            </div>
+            <div class="right-header-gkk">
+              <div class="text-header-gkk">
+                Widget officiel du marché de la santé et de la
+                beauté n°1 dans plus de 37 pays
+              </div>
+              <div class="flag-header-gkk">
+                <img src="images/flag-gkk2.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="body-pilsen-gkk">
+            <div class="tit-pilsen-gkk">
+              Prouvé cliniquement.<br>Naturel et sûr.<br><b>Garantie de remboursement !</b>
+            </div>
+            <div class="tovar-gkk">
+              <div class="img-tovar-gkk">
+                <div class="in-img-gkk">
+                  <a href="#form" data-mfp-src="img/bank.webp"><img src="images/product.png" alt="product"></a>
+                </div>
+              </div>
+              <div class="desc-tovar-gkk">
+                <div class="in-desc-gkk">
+                  <div class="reviews-gkk">
+                    <div class="link-reviews-gkk">
+                      <u>7 382 avis clients</u>
+                    </div>
+                    <div class="bot-reviews-gkk">
+                      <div class="star-gkk">
+                        <div class="item-star-gkk"></div>
+                        <div class="item-star-gkk"></div>
+                        <div class="item-star-gkk"></div>
+                        <div class="item-star-gkk"></div>
+                        <div class="item-star-gkk item-star-gkk2"></div>
+                      </div>
+                      <div class="avail-gkk">
+                        4,92 <span>/ 5.0</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="die-gkk die-gkk1"></div>
+                  <div class="die-gkk die-gkk2"></div>
+                  <div class="new-price-all price-turkish price-eng">
+                    <div class="old-price-bl2">
+                      Le prix :
+                      <span>798 ghs</span>
+                    </div>
+                    <div class="new-price-bl2">399 ghs</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bl-timer-new">
+            <div class="tit-timer-new">
+              L'offre de 50&nbsp;% de réduction se termine dans :
+            </div>
+            <div class="timer timer-new-bl">
+              <div class="in-timer-new-bl">
+                <span class="time accent" data-minutes="10" data-seconds="00">00 00</span>
+              </div>
+            </div>
+          </div>
+          <div class="form-body-gkk">
+            <div class="form-body-gkk__form">
+              <form action="" method="post">
+                <input type="hidden" name="task" value="process">
+                <input type="hidden" name="flow" value="4741">
+                <div class="form-container">
+                  <div>
+                    <div class="field-gkk no-uppercase">
+                      <label for="first_name">Votre nom</label>
+                      <input name="name" type="text" id="name" required="">
+                    </div>
+                    <div class="field-gkk no-uppercase field-last-gkk">
+                      <label for="first_name">Votre téléphone</label>
+                      <input name="phone" type="tel" id="phone" placeholder="+225-XX-XXXXXX" required="">
+                    </div>
+                    <div class="btn-gkk">
+                      <button class="btn" type="submit">
+                        Commandez avec 50% de réduction
+                      </button>
+                    </div>
+                    <div class="protect-gkk">
+                      <div class="in-protect-gkk">
+                        Nous garantissons une confidentialité &nbsp; 100
+                        %.<br>
+                        Vos données ne seront jamais partagées.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="packs.js%40588888"></script>
+</body>
+
+</html>
